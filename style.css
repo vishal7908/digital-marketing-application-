@@ -1,0 +1,603 @@
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@600&display=swap");
+@import url("https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css");
+
+/*Priofile section css*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 1920px;
+  height: 4621px;
+}
+#profile {
+  display: flex;
+  justify-content: left;
+  /* gap: 5rem; */
+  /* height: 80vh; */
+  /* top: 0px;
+  left: 0px; */
+  margin-top: 100px;
+  margin-left: 376px;
+  /* UI Properties */
+  /* background: #ffffff 0% 0% no-repeat padding-box;
+  opacity: 1; */
+}
+
+.section__pic-container {
+  /* margin-top: 100px; */
+  margin-left: 68px;
+  width: 487px;
+  height: 737px;
+  background: transparent url("Images/image/hero.png") 0% 0% no-repeat
+    padding-box;
+  opacity: 1;
+}
+
+.section__text {
+  width: 614px;
+  align-self: left;
+  text-align: left;
+}
+
+.section__text__p1 {
+  width: 251px;
+  height: 30px;
+  margin-top: 143px;
+  text-align: left;
+  font: normal normal 600 30px/110px "Cormorant SC";
+  white-space: nowrap;
+  letter-spacing: 0px;
+  color: #ff3147;
+  text-transform: uppercase;
+  opacity: 1;
+}
+
+.title {
+  margin-top: 39px;
+  width: 614px;
+  height: 140px;
+  text-align: left;
+  font: normal normal bold 60px/80px Cormorant SC;
+  letter-spacing: 0px;
+  color: #000000;
+  text-transform: uppercase;
+  opacity: 1;
+}
+.section__text__p2 {
+  margin-top: 50px;
+  /* left: 375px; */
+  width: 584px;
+  height: 83px;
+  text-align: left;
+  font: normal normal normal 16px/30px Poppins;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+}
+button {
+  margin-top: 60px;
+  /* left: 376px; */
+  width: 160px;
+  height: 50px;
+  border: none;
+  /* UI Properties */
+  background: #ff3147 0% 0% no-repeat padding-box;
+  border-radius: 2px;
+  color: #ffffff;
+  opacity: 1;
+  cursor: pointer;
+}
+
+/*Profile section css ends here*/
+/* form section starts here */
+.form-popup {
+  display: none;
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 450px;
+  height: 425px;
+  border: 1px solid #ff3b5f;
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+}
+
+.form-container {
+  padding: 20px;
+}
+
+.closeBtn {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+input[type="email"],
+input[type="text"] {
+  width: calc(100% - 20px);
+  /* padding: 10px; */
+  margin-top: 10px;
+  margin-bottom: 20px;
+  border-top: solid #ccc 1px;
+  border-left: none !important;
+  border-right: none !important;
+  border-bottom: none !important;
+}
+
+.name-fields {
+  display: flex;
+  justify-content: space-between;
+}
+
+.name-field {
+  width: 48%;
+}
+
+.checkbox-field {
+  display: flex;
+  align-items: center;
+}
+
+.checkbox-field input {
+  margin-right: 10px;
+}
+
+.submit-btn {
+  width: 100%;
+  padding: 10px;
+  background-color: #ff3b5f;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+.submit-btn:hover {
+  background-color: #e53958;
+}
+
+/* form section ends here */
+
+/* slider section starts here */
+#services {
+  height: 1030px;
+  width: 1920px;
+  margin-top: 100px;
+  background-color: #f8f9fa;
+}
+
+.container {
+  margin-left: 373px;
+  margin-top: 100px;
+}
+.section-title-services {
+  /* top: 243px;
+left: 376px; */
+  width: 251px;
+  height: 30px;
+  text-align: left;
+  font: normal normal 600 30px/110px Cormorant SC;
+  letter-spacing: 0px;
+  color: #ff3147;
+  text-transform: uppercase;
+  opacity: 1;
+}
+.box {
+  float: left;
+  width: 584px;
+  height: 83px;
+  margin-top: 53px;
+  margin-left: 10px; /* Optional: adds spacing between divs */
+  text-align: left;
+  font: normal normal normal 16px/30px Poppins;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+}
+
+.section-subtitle-services {
+  margin-top: 40px;
+  /* left: 373px; */
+  width: 442px;
+  height: 110px;
+  /* UI Properties */
+  text-align: left;
+  font: normal normal bold 45px/65px Cormorant SC;
+  letter-spacing: 0px;
+  color: #000000;
+  text-transform: uppercase;
+  opacity: 1;
+}
+.carousel-item img {
+  border-radius: 5px;
+  margin-top: 60px;
+  /* left: 375px; */
+  width: 370px;
+  height: 526px;
+  /* background: transparent url('img/1.png') 0% 0% no-repeat padding-box; */
+  opacity: 1;
+  /* max-height: 400px; */
+  object-fit: cover;
+  width: 100%;
+}
+.service-box {
+  margin-top: 60px;
+  height: 526px;
+  padding: 20px;
+  background: #ff3147 0% 0% no-repeat padding-box;
+  border-radius: 5px;
+  opacity: 0.86;
+  color: #ffffff;
+
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+#img-icon {
+  /* Layout Properties */
+  /* top: 1387px;
+left: 1331px; */
+  align-self: center;
+  color: #ffffff;
+  width: 57px;
+  height: 57px;
+  /* UI Properties */
+  background: transparent url("Images/icons/icon.png") 0% 0% no-repeat
+    padding-box;
+  opacity: 1;
+}
+.service-box h5 {
+  font-size: 1.5em;
+  margin-bottom: 20px;
+}
+.service-box p {
+  margin-bottom: 20px;
+}
+.service-box a {
+  color: #ff3147;
+  font-weight: bold;
+  text-decoration: none;
+  background-color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+.carousel-indicators {
+  position: static;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+.carousel-indicators li {
+  width: 10px;
+  height: 10px;
+  background-color: #000;
+  border-radius: 50%;
+}
+.carousel-indicators .active {
+  background-color: #ff0000;
+}
+
+/* slider section ends here */
+
+/* projects is starts here */
+
+.section-title {
+  /* top: 2067px; */
+  margin-left: 484px;
+  width: 206px;
+  height: 24px;
+  text-align: center;
+  font: normal normal 600 24px/26px Cormorant SC;
+  letter-spacing: 0px;
+  color: #ff3147;
+  opacity: 1;
+  margin-top: 100px;
+  margin-bottom: 30px;
+}
+.section-subtitle {
+  margin-top: 40px;
+  margin-left: 373px;
+  width: 428px;
+  height: 45px;
+  text-align: center;
+  font: normal normal bold 45px/65px Cormorant SC;
+  letter-spacing: 0px;
+  color: #000000;
+  text-transform: uppercase;
+  opacity: 1;
+  margin-left: 373px;
+}
+.icon-box {
+  margin-top: 63px;
+  text-align: left;
+  padding: 5px;
+}
+.icon-box img {
+  width: 50px;
+  height: auto;
+  margin-bottom: 20px;
+}
+.icon-box h5 {
+  /* top: 2331px;
+left: 375px; */
+  width: 243px;
+  height: 28px;
+  /* UI Properties */
+  text-align: left;
+  font: normal normal medium 20px/80px Poppins;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+  margin-bottom: 10px;
+}
+.icon-box p {
+  /* color: #6c757d; */
+  /* top: 2374px;
+left: 375px; */
+  width: 256px;
+  height: 75px;
+  text-align: left;
+  font: normal normal normal 16px/26px Poppins;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+}
+.project-section {
+  padding: 60px 0 0 0;
+}
+.project-image {
+  /* top: 2718px;
+left: 375px; */
+  width: 770px;
+  height: 567px;
+  border-radius: 5px;
+  opacity: 1;
+}
+.project-description {
+  /* top: 2718px;
+  left: 1175px; */
+  width: 300px;
+  height: 567px;
+  background: #f6f6f6 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+.project-description-upper {
+  /* top: 2718px;
+  left: 1175px; */
+  width: 300px;
+  height: 189px;
+  background: #f6f6f6 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+.highlight {
+  /* Layout Properties */
+  /* top: 2718px;
+left: 1175px; */
+  /* margin-top: 189px; */
+  width: 300px;
+  height: 189px;
+  /* UI Properties */
+  background: #f6f6 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+.project-description-lower {
+  /* top: 2718px;
+  left: 1175px; */
+  width: 300px;
+  height: 189px;
+  background: #f6f6f6 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+.project-description .headings {
+  /* top: 2752px;
+left: 1205px; */
+  margin-top: 80px;
+  margin-left: 30px;
+  width: 293px;
+  height: 28px;
+  text-align: left;
+  font: normal normal medium 20px/80px Poppins;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+}
+.project-description .texts {
+  margin-top: 20px;
+  margin-left: 12px;
+  width: 293px;
+  height: 79px;
+  text-align: left;
+  font: normal normal normal 16px/28px Poppins;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+}
+
+.highlight-heading {
+  margin-top: 20px;
+  margin-left: 30px;
+  font: normal normal medium 20px/80px Poppins;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+}
+.highlight-text {
+  margin-top: 15px;
+  margin-left: 12px;
+  width: 293px;
+  height: 79px;
+  /* UI Properties */
+  text-align: left;
+  font: normal normal normal 16px/28px Poppins;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+}
+
+/* projects is ends here */
+
+/* growth section style starts here */
+.section {
+  text-align: center;
+  background: #fafafa 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+.growth-section h4 {
+  /* Layout Properties */
+  padding-top: 100px;
+  /* left: 847px; */
+  width: 226px;
+  height: 24px;
+  /* UI Properties */
+  text-align: center;
+  font: normal normal 600 24px/26px Cormorant SC;
+  letter-spacing: 0px;
+  color: #ff3147;
+  text-transform: uppercase;
+  opacity: 1;
+}
+.growth-section h2 {
+  font-weight: bold;
+
+  /* top: 3569px;
+left: 682px; */
+  width: 556px;
+  height: 45px;
+  /* UI Properties */
+  text-align: center;
+  font: normal normal bold 45px/65px Cormorant SC;
+  letter-spacing: 0px;
+  color: #000000;
+  text-transform: uppercase;
+  opacity: 1;
+}
+
+.card {
+  margin-top: 60px;
+  border: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: 0.3s;
+  border-radius: 10px;
+  margin-bottom: 100px;
+}
+.card:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+.card-body {
+  padding: 30px;
+}
+.card img {
+  width: 40px;
+  height: auto;
+  margin-bottom: 20px;
+}
+.card h3 {
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+.card p {
+  color: #6c757d;
+}
+
+/* growth section style ends here */
+
+/* feedback style starts here */
+
+.section-title-feedback {
+  margin-top: 100px;
+  margin-left: 839px;
+  width: 242px;
+  height: 24px;
+  text-align: center;
+  font: normal normal 600 24px/26px Cormorant SC;
+  letter-spacing: 0px;
+  color: #ff3147;
+  text-transform: uppercase;
+  opacity: 1;
+}
+.section-subtitle-feedback {
+  margin-top: 40px;
+  margin-left: 661px;
+  width: 598px;
+  height: 45px;
+  text-align: center;
+  font: normal normal bold 45px/65px Cormorant SC;
+  letter-spacing: 0px;
+  color: #000000;
+  text-transform: uppercase;
+  opacity: 1;
+}
+.section-text-feedback {
+  margin-top: 76px;
+  margin-left: 554px;
+  width: 831px;
+  height: 62px;
+  text-align: left;
+  font: normal normal normal 20px/34px Poppins;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+}
+.section-feedback-p1 {
+  margin-top: 24px;
+  margin-left: 718px;
+  width: 520px;
+  height: 28px;
+  /* UI Properties */
+  text-align: left;
+  font: normal normal 300 20px/34px Poppins;
+  letter-spacing: 0px;
+  color: #808080;
+  opacity: 1;
+}
+.section-feedback-p1 strong {
+  margin-top: 24px;
+  left: 554px;
+  width: 159px;
+  height: 28px;
+  text-align: left;
+  font: normal normal bold 20px/34px Poppins;
+  letter-spacing: 0px;
+  color: #ff3147;
+  opacity: 1;
+}
+
+/* feedback style ends here */
+
+/* futter style starts here */
+.image-container {
+  padding-top: 100px;
+  position: relative;
+}
+
+.overlay {
+  position: absolute;
+  top: 230px;
+  left: 375px;
+  /* Adjust width and height as needed */
+  width: 1170px;
+  height: 56px;
+  z-index: 1; /* Optional */
+}
+
+/* futter style ends here */

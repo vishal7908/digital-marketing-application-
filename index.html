@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- Bootstrap CSS CDN -->
+    <!-- <link
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      rel="stylesheet"
+    /> -->
+    <!-- Google Fonts CDN for Cormorant SC -->
+    <!-- <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@600&display=swap"
+      rel="stylesheet"
+    /> -->
+  </head>
+  <body>
+    <!--Profile Section starts here-->
+    <div id="profile">
+      <div class="section__text">
+        <p class="section__text__p1">AWARD WINNING</p>
+        <h1 class="title">DIGITAL MARKETING AGENCY</h1>
+        <p class="section__text__p2">
+          Morbi sed lacus nec risus finibus feugiat et fermentum nibh.
+          Pellentesque vitae ante at elit fringilla ac at purus, Morbi sed lacus
+          nec risus finibus feugiat et fermentum
+        </p>
+
+        <!-- form section starts here -->
+        <button id="openFormBtn">CONTECT US</button>
+      <div id="contactFormPopup" class="form-popup">
+        <div class="form-container">
+          <span class="closeBtn" id="closeFormBtn">&times;</span>
+          <h2>Talk to us</h2>
+          <form>
+            <label for="email">Work email*</label>
+            <input type="email" id="email" name="email" required />
+          <div class="name-fields">
+            <div class="name-field">
+              <label for="firstName">First name*</label>
+              <input type="text" id="firstName" name="firstName" required />
+            </div>
+            <div class="name-field">
+              <label for="lastName">Last name*</label>
+              <input type="text" id="lastName" name="lastName" required />
+            </div>
+          </div>
+          <div class="checkbox-field">
+            <input type="checkbox" id="terms" name="terms" required />
+            <label for="terms"
+              >I agree to Fyle's terms and conditions, and provide consent to
+              send me communication.</label
+            >
+            </div>
+            
+            <button type="submit" class="submit-btn">Contact Us</button>
+          
+          
+        </form>
+      </div>
+    </div>
+    <script src="script.js"></script>
+      </div>
+        <!-- form section starts here -->
+        
+      <div class="section__pic-container">
+        <!-- <img src="Images/image/hero.png" alt="Img" /> -->
+      </div>
+    </div>
+    <section id="services">
+      <div class="container">
+        <div class="section-title-services">WHAT WE DO</div>
+        <div class="section-subtitle-services box">SERVICES PROVIDE FOR YOU</div>
+        <div class="section-text-services box">
+          Morbi sed lacus nec risus finibus feugiat et fermentum nibh.
+          Pellentesque vitae ante at elit fringilla ac at purus, Morbi sed lacus
+          nec risus finibus feugiat et fermentum
+        </div>
+        <div id="servicesCarousel" class="carousel slide" data-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="row">
+                <div class="col-md-3">
+                  <img src="Images/image/1.png" alt="Service Image 1" />
+                </div>
+                <div class="col-md-3">
+                  <img src="Images/image/2.png" alt="Service Image 1" />
+                </div>
+                <div class="col-md-3">
+                  <div class="service-box">
+                    <span id="img-icon"></span>
+                    <h5>WEB DEVELOPMENT</h5>
+                    <p>
+                      Morbi sed lacus nec risus finibus feugiat et fermentum
+                      nibh. Pellentesque vitae orci et elit tristique iaculis.
+                    </p>
+                    <a href="#">READ MORE <span>&#10141;</span></a>
+                  </div>
+                </div>
+                <div class="col-md-3">
+                  <img src="Images/image/3.png" alt="Service Image 1" />
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="row">
+                <div class="col-md-3">
+                  <img src="Images/image/2.png" alt="Service Image 1" />
+                </div>
+                <div class="col-md-3">
+                  <div class="service-box">
+                    <span id="img-icon"></span>
+                    <h5>WEB DEVELOPMENT</h5>
+                    <p>
+                      Morbi sed lacus nec risus finibus feugiat et fermentum
+                      nibh. Pellentesque vitae orci et elit tristique iaculis.
+                    </p>
+                    <a href="#">READ MORE <span>&#10141;</span></a>
+                  </div>
+                </div>
+                <div class="col-md-3">
+                  <img src="Images/image/3.png" alt="Service Image 1" />
+                </div>
+                <div class="col-md-3">
+                  <img src="Images/image/1.png" alt="Service Image 1" />
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="row">
+                <div class="col-md-3">
+                  <div class="service-box">
+                    <span id="img-icon"></span>
+                    <h5>WEB DEVELOPMENT</h5>
+                    <p>
+                      Morbi sed lacus nec risus finibus feugiat et fermentum
+                      nibh. Pellentesque vitae orci et elit tristique iaculis.
+                    </p>
+                    <a href="#">READ MORE <span>&#10141;</span></a>
+                  </div>
+                </div>
+                <div class="col-md-3">
+                  <img src="Images/image/3.png" alt="Service Image 1" />
+                </div>
+                <div class="col-md-3">
+                  <img src="Images/image/2.png" alt="Service Image 1" />
+                </div>
+                <div class="col-md-3">
+                  <img src="Images/image/1.png" alt="Service Image 1" />
+                </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+          <ol class="carousel-indicators">
+            <li
+              data-target="#servicesCarousel"
+              data-slide-to="0"
+              class="active"
+            ></li>
+            <li data-target="#servicesCarousel" data-slide-to="1"></li>
+            <li data-target="#servicesCarousel" data-slide-to="2"></li>
+          </ol>
+        </div>
+      </div>
+    </section>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!--Profile section ends here-->
+     <div class="container">
+      <!-- Why Choose Us Section -->
+      <div class="section-title">WHY CHOOSE US</div>
+      <div class="section-subtitle">WHY WE ARE BEST</div>
+      <div class="row">
+        <div class="col-md-3">
+          <div class="icon-box">
+            <img
+              src="Images/icons/1.png"
+              alt="Clarified Vision & Target"
+            />
+            <h5>Clarified Vision & Target</h5>
+            <p>
+              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy.
+            </p>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="icon-box">
+            <img
+              src="Images/icons/2.png"
+              alt="High Performance"
+            />
+            <h5>High Performance</h5>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor.
+            </p>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="icon-box">
+            <img
+              src="Images/icons/3.png"
+              alt="Maintain Security"
+            />
+            <h5>Maintain Security</h5>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor.
+            </p>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="icon-box">
+            <img
+              src="Images/icons/4.png"
+              alt="Better Strategy & Quality"
+            />
+            <h5>Better Strategy & Quality</h5>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Our Project Section -->
+      <div class="section-title">OUR PROJECT</div>
+      <div class="section-subtitle">WHY WE ARE BEST</div>
+      <div class="row project-section">
+        <div class="col-md-9">
+          <img
+            src="Images/image/image.png"
+            alt="Project Image"
+            class="project-image"
+          />
+        </div>
+        <div class="col-md-3">
+          <div class="project-description">
+            <div class="project-description-upper">
+              <strong class="headings">Genderless Kei <span>&#8211;</span> Japan's Hot</strong>
+            <p class="texts">
+              Set to launch on the manufacturer's new A330neo aircraft in 2017,
+              it's offering lots of...
+            </p>
+            </div>
+            <div class="highlight"><strong class="highlight-heading">Better Strategy & Quality</strong>
+            <p class="highlight-text">Set to launch on the manufacturer's new A330neo aircraft in 2017, it's offering lots of....</p></div>
+            
+            
+            <div class="project-description-lower">
+              <!-- <p>
+              Set to launch on the manufacturer's new A330neo aircraft in 2017,
+              it's offering lots of...
+            </p> -->
+            <strong class="headings">Genderless Kei <span>&#8211;</span> Japan's Hot</strong>
+            <p class="texts">
+              Set to launch on the manufacturer's new A330neo aircraft in 2017,
+              it's offering lots of...
+            </p>
+            </div>
+           
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <!-- growth section starts here -->
+    <section class="section">
+  <div class="container growth-section">
+      <h4 class="section-title">EXPERTS GROWTS</h4>
+      <h2 class="section-subtitle">OUR COMPANY GROWTH</h2>
+      <div class="row">
+        <div class="col-md-3">
+          <div class="card">
+            <div class="card-body">
+              <img src="Images/image/heart (2).png" alt="Satisfied Customers" />
+              <h3>199 +</h3>
+              <p>Satisfied Customers</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card">
+            <div class="card-body">
+              <img src="Images/image/clock (3).png" alt="Days Of Operation" />
+              <h3>1591+</h3>
+              <p>Days Of Operation</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card">
+            <div class="card-body">
+              <img src="Images/image/Path 4402.png" alt="Complete Projects" />
+              <h3>283 +</h3>
+              <p>Complete Projects</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card">
+            <div class="card-body">
+              <img src="Images/image/Path 4406.png" alt="Win Awards" />
+              <h3>75+</h3>
+              <p>Win Awards</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </section>
+    
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+   <!-- growth section ends here -->
+
+   <!-- feedback section starts here -->
+
+   <div class="feedback-section">
+    <h4 class="section-title-feedback">client's feedback</h4>
+    <h2 class="section-subtitle-feedback">people say's about us !</h2>
+    <p class="section-text-feedback">Jannat Tumpa The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections Bonorum et Malorum original.</p>
+    <p class="section-feedback-p1"><strong>JANNAT TUMPA</strong>- COO, AMERIMAR ENTERPRISES, INC.</p>
+   </div>
+   <!-- feedback section ends here -->
+   <!-- futter section starts here -->
+   <div class="image-container">
+  <img src="Images/image/NoPath - Copy.png" alt="Background Image">
+  <img src="Images/image/Group 500.png" class="overlay" alt="Transparent Overlay">
+</div>
+
+      <!-- futter section ends here -->
+  </body>
+</html>
